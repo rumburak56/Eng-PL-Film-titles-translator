@@ -59,16 +59,3 @@ for j in range(n):
     o.write("\n")
     print(debug)
 o.close()
-
-
-def sdadas():
-    if(index!=-1):
-        try:
-            o.write(page_soup.find_all("h3", class_="filmPreview__title")[index].string)
-            debug+=' :   '+page_soup.find_all("h3", class_="filmPreview__title")[index].string
-        except:
-            o.write(inp)
-            debug+=' :   '+inp
-    else:
-        o.write(inp)
-        debug+=' :   '+inp
