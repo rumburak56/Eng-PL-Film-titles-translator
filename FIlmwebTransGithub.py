@@ -21,6 +21,7 @@ for j in range(n):
     #making the url
     a=f.readline()
     inp=a.replace('\n', '')
+    debug=inp
     key=(inp.replace(' ', '+'))
     my_url='https://www.filmweb.pl/films/search?q='+key
     print(my_url)
